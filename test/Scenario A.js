@@ -1,8 +1,8 @@
 const OnDemand = artifacts.require("./AvgOnDemand.sol");
 const Observer = artifacts.require("./AvgOnObserver.sol");
 
-const addTimes = getRandomRange(100,120);
-const calcTimes = getRandomRange(10,12);
+const addTimes = getRandomRange(100,150);
+const calcTimes = getRandomRange(1,15);
 
 contract("OnDemand", async accounts => {
   it("Scenario A", async () => {
